@@ -51,3 +51,31 @@ Place.create!(
     }
   ]
 )
+
+Place.create!(
+  title: "Tokyo Metropolitan Art Museum",
+  city: "Tokyo",
+  country: "Japan",
+  category: "museum"
+)
+
+Place.create!(
+  title: "Blue Bottle Coffee Aoyama",
+  city: "Tokyo",
+  country: "Japan",
+  category: "cafe"
+)
+
+Place.create!(
+  title: "Sydney Opera House",
+  city: "Sydney",
+  country: "Australia",
+  category: "architecture"
+)
+
+Place.create!(
+  title: "Seattle Central Library",
+  city: "Seattle",
+  country: "USA",
+  category: "library"
+)
